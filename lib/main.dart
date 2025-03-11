@@ -28,9 +28,8 @@ class MyHomePage extends StatelessWidget {
       body: Center(
         child: Column(
           children: [
-            Text("Hello"),
-            Text("Hello"),
-            Text("Hello"),
+            Text("Commit"),
+            Text("Test"),
           ],
         ),
       ),
