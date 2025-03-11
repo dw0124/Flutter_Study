@@ -8,9 +8,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "My App",
-      theme: ThemeData(
-        primarySwatch: Colors.blue
-      ),
+        theme: ThemeData(
+            appBarTheme: AppBarTheme(
+              backgroundColor: Colors.blue, // AppBar의 배경 색상
+              foregroundColor: Colors.white, // AppBar의 글씨 및 아이콘 색상
+            )
+        ),
       home: MyHomePage(),
     );
   }
@@ -23,15 +26,20 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Hello World!"),
+        title: Text("BBANTO"),  // AppBar의 타이틀
+        centerTitle: true,      // AppBar의 타이틀을 가운데 정렬
+        backgroundColor: Colors.redAccent, // 앱바 배경색
+        elevation: 0.0,
       ),
       body: Center(
         child: Column(
-          children: [
-            Text("Commit"),
-            Text("Test"),
-          ],
-        ),
+              //mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text("hello"),
+                Text("hello"),
+                Text("hello"),
+              ],
+            ),
       ),
     );
   }
