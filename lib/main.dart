@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:start_flutter/BBANTO.dart';
+import 'package:start_flutter/startAppbar.dart';
 
-void main() => runApp(MyApp());
+// void main() => runApp(MyApp());
+// void main() => runApp(BBantoApp());
+void main() => runApp(StartAppBar());
 
 class MyApp extends StatelessWidget {
 
@@ -26,7 +30,7 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("BBANTO"),  // AppBar의 타이틀
+        title: Text("Title"),  // AppBar의 타이틀
         centerTitle: true,      // AppBar의 타이틀을 가운데 정렬
         backgroundColor: Colors.redAccent, // 앱바 배경색
         elevation: 0.0,
