@@ -1,10 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:start_flutter/BBANTO.dart';
 import 'package:start_flutter/startAppbar.dart';
+import 'package:start_flutter/startSnackBar.dart';
+import 'package:start_flutter/startToastMessage.dart';
 
 // void main() => runApp(MyApp());
 // void main() => runApp(BBantoApp());
-void main() => runApp(StartAppBar());
+// void main() => runApp(StartAppBar());
+// void main() => runApp(StartSnackBar());
+void main() => runApp(StartToastmessage());
 
 class MyApp extends StatelessWidget {
 
