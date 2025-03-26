@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:start_flutter/BBANTO.dart';
 import 'package:start_flutter/startAppbar.dart';
+import 'package:start_flutter/startNavigator.dart';
 import 'package:start_flutter/startSnackBar.dart';
 import 'package:start_flutter/startToastMessage.dart';
 
@@ -8,7 +9,8 @@ import 'package:start_flutter/startToastMessage.dart';
 // void main() => runApp(BBantoApp());
 // void main() => runApp(StartAppBar());
 // void main() => runApp(StartSnackBar());
-void main() => runApp(StartToastmessage());
+// void main() => runApp(StartToastmessage());
+void main() => runApp(StartNavigator());
 
 class MyApp extends StatelessWidget {
 
