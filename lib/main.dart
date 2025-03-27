@@ -9,10 +9,10 @@ import 'package:start_flutter/Navigator/myNavigator.dart';
 // void main() => runApp(MyApp());
 // void main() => runApp(BBantoApp());
 // void main() => runApp(StartAppBar());
-// void main() => runApp(StartSnackBar());
+void main() => runApp(StartSnackBar());
 // void main() => runApp(StartToastmessage());
 // void main() => runApp(StartNavigator());
-void main() => runApp(MyNavigator());
+// void main() => runApp(MyNavigator());
 
 class MyApp extends StatelessWidget {
 
